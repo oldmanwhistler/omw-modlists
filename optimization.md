@@ -8,7 +8,7 @@ I [use github](https://github.com/oldmanwhistler/omw-modlists) to document when 
 
 ## Steam Collections for Performance and Optimization
 
-### OMW Performance Improvements
+### OMW Performance Improvements (THIS COLLECTION)
 
 These are the mods I use to improve my RimWorld game performance with mods.
 
@@ -56,18 +56,7 @@ These are the mods that I know **conflict** with my Performance collection. Go t
 
 ## Mod Conflicts
 
-Mods in the "conflict collection" ended up there from overlapping features making them unnecessary or because they are listed as conflicts.
-
-- Faster Game Loading and Yet Another Optimizer
-  - Need to disable Lazy Texture Loading
-- Image Opt and RimSort texture compression.
-  - **Preference:** Use Image Opt for texture compression instead of RimSort.
-- Image Opt and Graphics Setting+
-  - Redundant: They "work" together but perform the same function. Use one.
-- Missile Girl and DefLoadCache
-  - Conflict: Choose one.
- - Missile Girl and Butter++
-  - Conflict: Choose one.
+See the description at [OMW Optimization - CONFLICTS](https://steamcommunity.com/sharedfiles/filedetails/?id=3723639570)
 
 ## The Mods
 
