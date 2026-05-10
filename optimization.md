@@ -2,7 +2,72 @@
 
 This is the base layer of mods I use for improving game optimization when running 800+ modpacks.
 
-## Modlist
+Last tested together with RimWorld 1.6 on 2026/05/10.
+
+## Steam Collections for Performance and Optimization
+
+### OMW Performance Improvements
+
+These are the mods I use to improve my RimWorld game performance with mods.
+
+1. Install these first: [OMW Performance Improvements](https://steamcommunity.com/sharedfiles/filedetails/?id=3723574248)
+2. Follow the instructions in the "Mod Config" section to configure things.
+
+### OMW Optimization - CONFLICTS
+
+These are the mods that I know **conflict** with my Performance collection. Go through them and unsubscribe if you are using the performance collection.
+
+1. Unsubscribe from everything in this collection: [OMW Optimization - CONFLICTS](https://steamcommunity.com/sharedfiles/filedetails/?id=3723639570)
+
+## Mod Config
+
+### Image Opt: Image Load Optimization
+
+- After changing mods, go to the mod config and "Open GPU Compression Tools" and regenerate the compressed textures.
+
+### Yet Another Optimizer
+
+- Disable "Lazy Texture Loading" if you are using "Faster Game Loading" mod.
+
+### Performance Optimizer
+
+- Disable "Faster Get Comp Method Replacement"
+- "Hide Resource Readout" to disable the game scanning your map for items
+
+### Default Ingredient Radius
+
+- Set to a value other than unlimited to prevent recipes from scanning the entire map
+
+### Savegame Shrinker
+
+- Enable all the "safe" options
+
+### Toggleable Readouts
+
+- Enable "Disable All"
+
+### Tweaks Galore
+
+- Enable "Don't Generate Relations" -- this replaces "No Random Relations" mod
+- Enable "Lag Free Lamps" -- This replaces "Lagless Lamps" mod
+- Enable "No Breakdowns" -- YMMV
+
+## Mod Conflicts
+
+Mods in the "conflict collection" ended up there from overlapping features making them unnecessary or because they are listed as conflicts.
+
+- Faster Game Loading and Yet Another Optimizer
+  - Need to disable Lazy Texture Loading
+- Image Opt and RimSort texture compression.
+  - **Preference:** Use Image Opt for texture compression instead of RimSort.
+- Image Opt and Graphics Setting+
+  - Redundant: They "work" together but perform the same function. Use one.
+- Missile Girl and DefLoadCache
+  - Conflict: Choose one.
+ - Missile Girl and Butter++
+  - Conflict: Choose one.
+
+## The Mods
 
 ### Core
 
@@ -40,51 +105,7 @@ This is the base layer of mods I use for improving game optimization when runnin
 - [Optimization Meats](https://steamcommunity.com/sharedfiles/filedetails/?id=2542931556)
   - Reduce number of different meats in game, less different stacks
 
-## Mod Config
-
-### Image Opt: Image Load Optimization
-
-- After changing mods, go to the mod config and "Open GPU Compression Tools" and regenerate the compressed textures.
-
-### Yet Another Optimizer
-
-- Disable "Lazy Texture Loading" if you are using "Faster Game Loading" mod.
-
-### Performance Optimizer
-
-- Disable "Faster Get Comp Method Replacement"
-- "Hide Resource Readout" to disable the game scanning your map for items
-
-### Default Ingredient Radius
-
-- Set to a value other than unlimited to prevent recipes from scanning the entire map
-
-### Savegame Shrinker
-
-- Enable all the "safe" options
-
-### Toggleable Readouts
-
-- Enable "Disable All"
-
-### Tweaks Galore
-
-- Enable "Don't Generate Relations" -- this replaces "No Random Relations" mod
-- Enable "Lag Free Lamps" -- This replaces "Lagless Lamps" mod
-- Enable "No Breakdowns" -- YMMV
-
-## Mod Conflicts
-
-- Faster Game Loading and Yet Another Optimizer
-  - Need to disable Lazy Texture Loading
-- Image Opt and RimSort
-  - Use Image Opt for texture compression instead of RimSort
-- Image Opt and Graphics Setting+
-  - They "work" together but they're doing the same thing.
-- Missile Girl and DefLoadCache
-- Missile Girl and Butter++
-
-## Mods I didn't include
+## TODO
 
 I need to figure out if these are needed.
 
