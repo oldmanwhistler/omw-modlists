@@ -4,6 +4,8 @@ This is the base layer of mods I use for improving game optimization when runnin
 
 Last tested together with RimWorld 1.6 on 2026/05/10.
 
+I [use github](https://github.com/oldmanwhistler/omw-modlists) to document when I make changes to this collection.
+
 ## Steam Collections for Performance and Optimization
 
 ### OMW Performance Improvements
